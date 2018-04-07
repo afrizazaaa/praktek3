@@ -1,9 +1,9 @@
 package praktek3;
 
 public class Kapal {
-   String kargo;
-   String jenis;
-   double harga;
+   private String kargo;
+   private String jenis;
+   private double harga;
    
    void cetakInfo(){
        System.out.println("Kargo \t: "+kargo+"\n"+
