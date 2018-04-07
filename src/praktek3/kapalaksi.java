@@ -8,5 +8,12 @@ public class kapalaksi {
         q.setHarga(3000000);
         
         q.cetakInfo();
+        
+        System.out.print("Kargonya \t: ");
+        System.out.println(q.getKargo());
+        System.out.print("Jenisnya \t: ");
+        System.out.println(q.getJenis());
+        System.out.print("Harganya \t: ");
+        System.out.println(q.getHarga());
     }
 }
