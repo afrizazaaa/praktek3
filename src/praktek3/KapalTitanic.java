@@ -6,5 +6,15 @@ public class KapalTitanic extends Kapal {
     void throttle(){
         System.out.println("Nyoossssss.....");
     }
+
+    public String getJenisKapal() {
+        return jenisKapal;
+    }
+
+    public void setJenisKapal(String jenisKapal) {
+        this.jenisKapal = jenisKapal;
+    }
+    
+    
     
 }
