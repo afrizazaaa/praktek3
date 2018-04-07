@@ -10,4 +10,30 @@ public class Kapal {
                "Jenis \t: "+jenis+"\n"+
                "Harga \t:"+harga);
    }
+
+    public String getKargo() {
+        return kargo;
+    }
+
+    public void setKargo(String kargo) {
+        this.kargo = kargo;
+    }
+
+    public String getJenis() {
+        return jenis;
+    }
+
+    public void setJenis(String jenis) {
+        this.jenis = jenis;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+   
+   
 }
